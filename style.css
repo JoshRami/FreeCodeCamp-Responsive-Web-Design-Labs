@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+body{
+    margin-top: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.hobby-icon, img, #img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption{
+    opacity: 0.7;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+#main{
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding-bottom: 100px;
+}
+.header{
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 10%, #83eaf1 74%);
+    width: 100%;
+    height: auto;   
+    position: sticky;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.principal-title{
+    line-height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sub-title{
+    text-align: center;
+    margin-top: -25px;
+    opacity: 0.65;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+#image{
+    display:block;
+    margin:auto;
+    width: 67%;
+}
+.article-info{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+} 
+.familie-imgs{
+    flex: 33.33%;
+    padding: 5px;
+}
+.hobby-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hobby{
+    padding: 5px;
+}
+.img-container{
+    width: 70%;
+}
