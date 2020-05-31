@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
+    background-image: linear-gradient(
+      115deg,
+      rgba(62, 61, 165, 0.8),
+      rgba(42, 228, 113, 0.7)
+    ),
+    url("./assets/prueba2.jpg");
+}
+.content{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    height: auto; 
+    background-color: #063558d4;
+    border-radius: 8px;
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+p, h1, h2, h3, label, input,select{
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+}
+#description, #title{
+  text-align: center;
+}
+#title{
+  overflow: auto;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.about-your-experience-form, .about-you-form{
+  margin: 0 auto;
+  height: fit-content;
+  overflow: hidden;
+}
+.name-input{
+  width: 100%;
+}
+input,select,textarea, .submit-button{
+  color: black;
+  border-radius: 3px;
+  padding: 8px 0px 8px 5px;
+  font-size: 16px;
+  width: 100%;
+  margin: 5px 0px 15px 3px;
+  border-right: 0px;
+  overflow: auto;
+}
+#survey-form{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#dropdown{
+  width: 99%;
+}
+#number{
+  width: 98%
+}
+label{
+  display: flex;
+  margin-right: 10px;
+}
+.radio, .checkbox {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+textarea{
+  height: 100px;
+}
+.submit-button{
+  background-color: #4CAF50;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+
+
+
+
+
+

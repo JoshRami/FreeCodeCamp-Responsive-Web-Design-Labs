@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tiki Taka School</title>
+</head>
+<body>
+   <div class="container">
+       <div class="content">
+            <h1 id="title">Tiki Taka School Survey ⚽ </h1>
+            <p id="description">We would like to know about your thoughts about our course you took last semester </p>
+            <div class="form-container">
+            <form id="survey-form">
+                <div class="about-person">
+                    <h2>About you</h2>
+                    <div class="about-you-form">
+                        <label id="name-label" for="name">Names:</label><br>
+                        <input class="name-input" type="text" id="name" placeholder="Enter your names" required>
+                        <label id="email-label" for="e-mail">Email:</label><br>
+                        <input class="email-input" type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="about-exp">
+                    <h2>About your experience</h2>
+                    <div class="about-your-experience-form">
+                        <label id="number-label" for="name">How was your experience?</label><br>
+                        <input  type="number" id="number" placeholder="Give us a note from 1 to 10" min= "0" max="10">
+                        <label>What was yout favorite thing</label><br>
+                        <select id="dropdown">
+                            <option value="Instructor">Instructor</option>
+                            <option value="Place">Place</option>
+                            <option value="Methodology">Methodology</option>
+                            <option value="Price">Price</option>
+                          </select>
+                          <p>How do you rate your experience in generally</p>
+                          <div class="radio-input">
+                            <label><input class="radio" type="radio" id="bad-exp" name="exp" value="bad">Bad 😠</label>
+                            <label ><input  class="radio" type="radio" id="acceptable-exp" name="exp" value="acceptable">Not bad 😐</label>
+                            <label> <input class="radio"  type="radio" id="great-exp" name="exp" value="great">Great 😄</label>
+                        </div>
+                        <p>What do you think about what we can improve in the next course</p>
+                          <div class="checkbox-input">
+                            <label><input class="checkbox" type="checkbox"  name="exp" value="place">Place</label>
+                            <label ><input  class="checkbox" type="checkbox"  name="exp" value="coaching-methods">Coaching methods</label>
+                            <label> <input class="checkbox"  type="checkbox"  name="exp" value="price">Prices</label>
+                            <label><input class="checkbox" type="checkbox"  name="exp" value="rooms">Rooms</label>
+                            <label ><input  class="checkbox" type="checkbox"  name="exp" value="utils">utils</label>
+                        </div>
+                        <p>We would like to know your opiniones more in depth</p>
+                        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                        <button type="submit" id="submit" class="submit-button">Submit</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+   </div>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
