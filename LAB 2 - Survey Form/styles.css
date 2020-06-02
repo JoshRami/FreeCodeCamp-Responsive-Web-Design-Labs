@@ -11,6 +11,7 @@ body{
       rgba(42, 228, 113, 0.7)
     ),
     url("./assets/prueba2.jpg");
+    box-sizing: border-box;
 }
 .content{
   margin-left: 40px;
@@ -65,12 +66,6 @@ input,select,textarea, .submit-button{
 #survey-form{
   overflow: hidden;
   margin-bottom: 50px;
-}
-#dropdown{
-  width: 99%;
-}
-#number{
-  width: 98%
 }
 label{
   display: flex;
