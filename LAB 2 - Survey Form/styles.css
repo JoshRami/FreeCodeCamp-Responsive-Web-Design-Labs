@@ -53,16 +53,7 @@ p, h1, h2, h3, label, input,select{
 .name-input{
   width: 100%;
 }
-input,select,textarea, .submit-button{
-  color: black;
-  border-radius: 3px;
-  padding: 8px 0px 8px 5px;
-  font-size: 16px;
-  width: 100%;
-  margin: 5px 0px 15px 3px;
-  border-right: 0px;
-  overflow: auto;
-}
+
 #survey-form{
   overflow: hidden;
   margin-bottom: 50px;
