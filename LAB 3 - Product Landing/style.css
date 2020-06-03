@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5vw;
+    font-family:  'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+a{
+    margin-right: 3px;
+}
+iframe,
+img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+a{    
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #35454d;
+    color: white;
+    padding: 15px 0;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    width: 10%;
+    height: 10%;
+    align-content: center;
+    justify-content: center;
+}
+.about-us{
+    text-align: center;
+    margin-top: 35px;
+}
+@media screen and (max-width: 768px){
+    *{
+        font-size: 2.5vw;
+    }
+    .about-wrapper,
+    .header{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .title{
+        margin: 0;
+    }
+}
+.about-wrapper{
+    display: flex;
+    align-content: space-around;
+    width: 90%;
+    margin: 15px  auto;
+}
+iframe{
+    width: 560px; 
+    height: 315px;
+}
+.video-wrappers,
+.best-things{
+    width: 50%;
+}
+.atractions{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atraction{
+    display: flex;
+    align-content: center;
+    margin: 10px 0;
+    text-align: left;
+}
+input{
+    padding: 8px 0px 8px 5px;
+    font-size: 16px;
+    width: 100%;
+    margin: 5px 0px 15px 3px;
+}
+.visit-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+input,  
+.submit-button {
+	border-radius: 3px;
+	padding: 8px 0px 8px 5px;
+	font-size: 16px;
+	width: 300px;
+	margin: 5px 0px 15px 3px;
+}
+.submit-button {
+	background-color: #4CAF50;
+}
+.contact-form{
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+
+
