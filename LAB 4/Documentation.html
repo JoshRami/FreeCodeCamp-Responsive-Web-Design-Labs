@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ES6 Destructuring in a Nutshell</title>    
+</head>
+<body>
+    <div class="page-container">
+
+        <header class="header-container">
+            <div class="header">
+                <img src="assets/es6-logo.jpg" alt="Logo ES6">
+                <h1 class="main-title">In a Nutshel 👨‍💻</h1>
+            </div>
+        </header>
+        <div class="nav-container">
+            <div class="nav-wrapper">
+                <nav id="navbar" class="aside-nav">
+                    <header class="nav-header">
+                        <h3>ES6 Cool Features</h3>
+                    </header>
+                    <ul>
+                        <li><a class="nav-link" href="#Using_Const_and_Let">Using Const and Let</a></li>
+                        <li><a class="nav-link" href="#Template_Strings">Template Strings</a></li>
+                        <li><a class="nav-link" href="#Arrow_Functions">Arrow Functions</a></li>
+                        <li><a class="nav-link" href="#Spread_Operators">Spread Operators</a></li>
+                        <li><a class="nav-link" href="#Method_Definition">Method Definition</a></li>
+                        <li><a class="nav-link" href="#Classes_and_Inheritances">Classes and Inheritances</a></li>
+                        <li><a class="nav-link" href="#Default_Arguments">Default Arguments</a></li>
+                        <li><a class="nav-link" href="#Object_Destructuring_Assignment">Object Destructuring Assignment</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main id="main-doc"class="content-container">
+            <div class="content-wrapper">
+
+                <section class="intro">
+                    <h2>8 <strong>Cool</strong> ES6 Features</h2>
+                </section>
+                <section class="main-section" id="Using_Const_and_Let" >
+                    <header>
+                        <h3>Using Const and Let</h3>
+                    </header>
+                    <p>After a long time using the keyword var to create variables and instantiate objects,
+                        the ES6 added two new useful keywords to handle with variables: const and let. 
+                    </p>
+                    <p>
+                        The main differences between const and let is that const allows you to create constants,
+                         and let to do the same as var, but it avoids hoisting problems. As a best practice, always use const
+                        to handle with immutable data, because it uses less memory than using let
+                    </p>
+                    <div class="code-wrapper">
+                        <code>
+                            <p>//creating a constant</p>  
+                            <p>const MAX = 10;</p>
+                            <p>// creating a variable</p>
+                            <p>let value = 5;</p>
+                            <p>//can't change the value of a constant</p>
+                            <p> MAX = 5;</p>
+                        </code>
+                    </div>
+                </section>
+                <section class="main-section" id="Template_Strings">
+                    <header>
+                        <h3>Template Strings</h3>
+                    </header>
+                    <p>
+                        The template string is a powerful feature, which allows you to interpolate data inside a string in an elegant way.
+                        To create a template string you need to create a string using grave accent, like in this example: This is a template string.
+                        If you need to interpolate data inside a string, you just need to use this syntax: ${data}. Take a look at the example below:
+                    </p>
+                    <div class="code-wrapper">
+                        <code>
+                            <p>var name = "John Connor";</p>  
+                            <p>cconsole.log(`This is ${name} from the future!`);</p>
+                        </code>
+                    </div>
+                </section>
+                <section class="main-section" id="Arrow_Functions">
+                    <header>
+                        <h3>Arrow Functions</h3>
+                    </header>
+                    <p>
+                        In JavaScript it is very common to invoke functions, anonymous function and callback functions
+                        using the keyword function. The arrow function is a new feature which changes the way to create functions and the way they behave
+                    </p>
+                    <div class="code-wrapper">
+                        <code>
+                            <p> const foo() => {};</p>  
+                            <p>// inline arrow-function</p>
+                            <p>const add = (a, b) => {</p>
+                            <p>a + b</p>
+                            <p>};</p>
+                        </code>
+                    </div>
+                </section>
+                <section class="main-section" id="Spread_Operators">
+                    <header>
+                        <h3>Spread Operators</h3>
+                    </header>
+                    <p>
+                        The Spread Operator basically converts an array into arguments, it is very useful when 
+                        you need to break array values to send them as parameters for a function or object constructors. 
+                    </p>
+                    <div class="code-wrapper">
+                        <code>
+                            <p>const values = [1, 2];</p>  
+                            <p>add(...values); // returns 3</p>
+                        </code>
+                    </div> 
+                </section>
+                <section class="main-section"id="Method_Definition">
+                    <header>
+                        <h3>Method Definition</h3>
+                    </header>
+                    <p>
+                        If you need to create simple objects with some attributes and some functions, ES6 makes the process easier, for example:
+                    </p>
+                    <div class="code-wrapper">
+                        <code>
+                            <p>var MyObject = {</p>  
+                            <p>}</p>
+                        </code>
+                    </div> 
+                </section>
+                <section class="main-section" id="Classes_and_Inheritances">
+                    <header>
+                        <h3>Classes and Inheritances</h3>
+                    </header>
+                </section>
+                <section class="main-section" id="Default_Arguments">
+                    <header>
+                        <h3>Default Arguments</h3>
+                    </header>
+                </section>
+                <section  class="main-section" id="Object_Destructuring_Assignment">
+                    <header>
+                        <h3>Object Destructuring Assignment</h3>
+                    </header>
+                </section>
+            </div>
+            <ul>
+        </ul>
+        </main>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

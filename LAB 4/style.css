@@ -1,0 +1,151 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+
+*, *:before, *:after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'raleway', sans-serif;
+    background: url(./assets/dot-grid.png);
+    border: 12px solid #323330;
+    font-size: 11px;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+span,
+label,
+li,
+code,
+p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-container{
+    display: grid;
+    grid-template-columns: 0.8fr 3.2fr;
+    grid-template-rows: 0.2fr 3.8fr;
+    grid-template-areas:
+      "header header"
+      "nav content";
+    row-gap: 5px;
+}
+.header-container{
+    grid-area: header;
+}
+.nav-container{
+    grid-area: nav;
+    overflow-y: scroll;
+    text-align: center;
+}
+.content-container{
+    grid-area: content;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #f0db4f;
+    height: 90px;
+    background-color: #ffffff;
+}
+.main-title{
+    margin-left: 5px;
+}
+.nav-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-header{
+    margin-bottom: 15px;
+}
+li{
+    margin-bottom: 25px;
+    margin-left: 20px;
+    list-style-type: none;
+    text-align: left;
+    border-left: solid 4px #d4bb2c;
+    padding-left: 10px;
+}
+.content-wrapper{
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.main-section{
+    margin-top: 30px;
+    border: 3.5px solid;
+    border-image-source: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+    border-image-slice: 1;
+    padding: 15px 25px;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.code-wrapper{
+    border-radius: 3px;
+    background-color: #f4f2f0;
+    margin: 12px 0;
+}
+@media only screen and (max-width: 640px) {
+
+    .page-container {
+        display: grid;
+        grid-template-columns: 4fr;
+        grid-template-areas: "header" "nav" "content";
+        row-gap: 5px;
+    }
+    h1{
+        font-size: 2rem;
+        background-color: #f0db4f;
+        font-weight: 800;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    span,
+    label,
+    li,
+    code,
+    p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+}
+
+
+
+
+
+
+
