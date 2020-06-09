@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titillium+Web:ital,wght@0,400;0,600;1,300;1,400;1,600&display=swap');
+
+*, *:before, *:after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background-color: #f2f9fa;
+    padding-top: 15vh;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-container{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: #022534;
+}
+.logo-container{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    margin-right: 20px;   
+}
+.menu-list a,
+.menu-list li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 7px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.menu-list li:hover,
+h1:hover{
+    -webkit-text-stroke: 1px #39ff14;
+}
+.welcome-section{
+    background-color: #094f6e;
+}
+.welcome-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.welcome-section h1,
+.welcome-section h2
+{
+    font-size: 3em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.welcome-section h1{
+    font-size: 4em;
+    padding-top: 20px;
+}
+.welcome-wrapper img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 3vh;
+    object-fit: cover
+}
+.projects{
+    font-size: 2em;
+    background-color: #094f6e;
+    margin-top: 7vh;
+    padding: 20px 0;
+}
+.projects img{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.projects-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+    justify-content: space-evenly;
+}
+.project-tile{
+    width: 30%;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 5px;
+    color: #444;
+    background-color: white;
+}
+.project-header{
+    text-align: left;
+    background-color: #1e88e5;
+    border-radius: 5px 5px 0 0;
+    color: #fafafa;
+    padding: 10px 18px;
+}
+.project-img-container{
+    height: 30vh;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 5px 5px 0 0;
+}
+.project-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project-description{
+    color:  #1e88e5;
+    padding: 5px;
+    text-align: center;
+}
+.project-description-wrapper{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1vh 0 3vh 0;
+}
+.contact{
+    background-color: #96c7d5;
+    color: black;
+    margin: 20px auto 0 auto;
+    height: 20vh;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;    
+    height: 75%;
+    width: 100%;
+    margin: auto 0;
+}
+.icon{
+    height: 70%;
+    width: 15%;
+}   
+.contact-title{
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+    .welcome-wrapper img{
+        width: 80%;
+    }    
+    .projects-wrapper{
+        flex-direction: column;
+    }
+    .project-tile{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .contact-icons{
+        height: 60%;
+    }
+}
+
